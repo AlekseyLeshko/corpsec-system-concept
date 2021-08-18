@@ -19,6 +19,7 @@ I have test cases for validation product requirements.
 
 
 ## First step: questions for stakeholders
+**All answers from my mind**
 I - I
 S - stakeholders
 
@@ -31,8 +32,11 @@ S: The main difference is a not existing company can change their data as a clie
 I: Do we have any limits for a not existing company?
 S: Yes, we have. if a not registered company has a corporate charter then our system must create documents for changing a paid-up capital, shares, etc.
 
+I: How do we can change a registered company attribute?
+S: By a process with documents.
+
 I: What countries do we work in?
-S: For example, in the SG. However, you thinking about the whole world.
+S: For example, in the SG. However, you should think about the whole world.
 
 I: Do you know country based requirements?
 S: Currently, no anyways we are totally sure each country has them.
@@ -45,3 +49,12 @@ S: Yes, we have.
 
 I: What tasks are they doing now?
 S: They collect company data, like principal activities, shareholders, a website, etc.
+
+I: Which attributes does a company have?
+S: name, description, principal activities, paid-up capital, shares, company members, registration number.
+
+Summary:
+- country based system
+  - region based system
+- each company attribute can be a lock if a company registered
+- company attribute can be changed only by a special document process
